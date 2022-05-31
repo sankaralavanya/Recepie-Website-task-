@@ -1,0 +1,59 @@
+header .img,header .alinks{
+    flex:1;
+}
+main{
+    height:800px;
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+header{
+    height:200px;
+    width: auto;
+}
+#img5 img{
+    flex:3;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding: 50px;
+}
+#imgr1,#imgr2{
+    flex:1;
+    
+}
+#img1 img,#img2 img,#img3 img,#img4 img{
+    flex:1;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding: 50px;
+}
+main{
+    display: flex;
+}
+figure:hover+span{
+    background-color:purple;
+}
+#alinks{
+    text-align: center;
+}
+a{
+    padding: 40px;
+    font-size: large;
+}
+#logo img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:red;
+}
+figcaption{
+    font-size: large;
+    text-align: center;
+}
